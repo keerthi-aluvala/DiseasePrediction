@@ -1,0 +1,19 @@
+psql postgres postgres
+\l => lists all the databases
+\c database_name => connects to that database
+\dt lists tables in a database
+CREATE DATABASE disease_prediction;
+CREATE USER django WITH PASSWORD 'password';
+/du => lists all users
+GRANT ALL PRIVILEGES ON DATABASE disease_prediction TO keerthi;
+\q => to exist from database
+
+pip install psycopg2
+
+
+
+
+users:
+Sruthi_Aluvala
+sruthi@gmail.com
+Testing321
